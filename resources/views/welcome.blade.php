@@ -134,7 +134,7 @@
         <p>Allyson</p>
         <div class="azpeitia"></div>
             <div class="allyson-col-md-12">
-                <table>
+                <table border="5">
                     <tr>
                         allyson
                     </tr>
