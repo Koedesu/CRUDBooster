@@ -145,6 +145,8 @@
             <tr>
 
             </tr>
+
+            @include('pito')
         </div>
     </body>
 </html>
