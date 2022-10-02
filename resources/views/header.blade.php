@@ -38,7 +38,7 @@
                 <div class="col-lg-2">
                     <div class="header__logo">
                         <a href="./index.blade.php">
-                            <images src="images/logo.png" alt="">
+                            <images src="/images/logo.png" alt="">
                         </a>
                     </div>
                 </div>
