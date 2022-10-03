@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-lg-3">
                 <div class="footer__logo">
-                    <a href="/index.blade.php"><images src="/images/logo.png" alt=""></a>
+                    <a href="/index.blade.php"><img src="/images/logo.png" alt=""></a>
                 </div>
             </div>
             <div class="col-lg-6">
