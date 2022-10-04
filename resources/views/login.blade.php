@@ -3,6 +3,7 @@
 
     <!-- Login Section Begin -->
     <section class="login spad">
+        <div id="cuadro_login"></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
