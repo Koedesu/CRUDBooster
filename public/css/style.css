@@ -1726,7 +1726,7 @@ ol {
 	padding-left: 145px;
 }
 
-.login__form:after {
+/* .login__form:after {
 	position: absolute;
 	right: -14px;
 	top: -40px;
@@ -1734,7 +1734,7 @@ ol {
 	width: 1px;
 	background: rgba(255, 255, 255, 0.2);
 	content: "";
-}
+} */
 
 .login__form h3 {
 	color: #ffffff;
