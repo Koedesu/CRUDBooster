@@ -48,7 +48,7 @@
                         <nav class="header__menu mobile-menu">
                             <ul>
                                 <li class="active"><a href="./index.blade.php">HOMEPAGE</a></li>
-                                <li><a href="./categories.html">CATEGORIES <span class="arrow_carrot-down"></span></a>
+                                <li><a href="./categories.html">TOURNAMENTS <span class="arrow_carrot-down"></span></a>
                                     <ul class="dropdown">
                                         <li><a href="./categories.html">AVAILABLE TOURNAMENTS</a></li>
                                         <li><a href="./anime-details.html">ONGOING TOURNAMENTS</a></li>
