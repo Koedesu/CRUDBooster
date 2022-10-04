@@ -10,7 +10,8 @@
     <title>Tournament | Template</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap -->
+    <link href="public/fonts/Font1.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
 
@@ -46,19 +47,16 @@
                     <div class="header__nav">
                         <nav class="header__menu mobile-menu">
                             <ul>
-                                <li class="active"><a href="./index.blade.php">Homepage</a></li>
-                                <li><a href="./categories.html">Categorias <span class="arrow_carrot-down"></span></a>
+                                <li class="active"><a href="./index.blade.php">HOMEPAGE</a></li>
+                                <li><a href="./categories.html">CATEGORIES <span class="arrow_carrot-down"></span></a>
                                     <ul class="dropdown">
-                                        <li><a href="./categories.html">Categories</a></li>
-                                        <li><a href="./anime-details.html">Anime Details</a></li>
-                                        <li><a href="./anime-watching.html">Anime Watching</a></li>
-                                        <li><a href="./blog-details.html">Blog Details</a></li>
-                                        <li><a href="./signup.html">Sign Up</a></li>
-                                        <li><a href="./login.html">Login</a></li>
+                                        <li><a href="./categories.html">AVAILABLE TOURNAMENTS</a></li>
+                                        <li><a href="./anime-details.html">ONGOING TOURNAMENTS</a></li>
+                                        <li><a href="./anime-watching.html">SCHEDULES</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="./blog.html">Our Blog</a></li>
-                                <li><a href="#">Contacts</a></li>
+                                <li><a href="./blog.html">-</a></li>
+                                <li><a href="#">-</a></li>
                             </ul>
                         </nav>
                     </div>

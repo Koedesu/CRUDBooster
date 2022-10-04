@@ -350,7 +350,7 @@ ol {
 }
 
 .header__menu ul li.active a {
-	background: #e53637;
+	background: #E43637;
 	color: #ffffff;
 }
 
@@ -377,7 +377,7 @@ ol {
 	left: 0;
 	top: 82px;
 	width: 150px;
-	background: #ffffff;
+	background: #1C1E43;
 	text-align: left;
 	padding: 5px 0;
 	z-index: 9;
@@ -395,7 +395,7 @@ ol {
 
 .header__menu ul li .dropdown li a {
 	font-size: 14px;
-	color: #111111;
+	color: #ffffff;
 	font-weight: 500;
 	padding: 5px 20px;
 }
