@@ -1,11 +1,15 @@
 @include('header')
+<<<<<<< HEAD
 <h1 class="md-12">
 
 </h1>
+=======
+>>>>>>> eb729476b0a5aacee26042904412d42b75e7ba8f
 
 
     <!-- Login Section Begin -->
     <section class="login spad">
+        <div id="cuadro_login"></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -20,7 +24,7 @@
                                 <input type="text" placeholder="Password">
                                 <span class="icon_lock"></span>
                             </div>
-                            <button type="submit" class="site-btn">Login Now</button>
+                            <button type="submit" class="site-btn">Login</button>
                         </form>
 
                     </div>
@@ -30,9 +34,9 @@
                         <div class="login__social__links">
                             <span>or</span>
                             <ul>
-                                <li><a href="#" class="facebook"><i class="fa fa-facebook"></i> Sign in With
+                                <li><a href="#" class="facebook"><i class="fa fa-facebook"></i> Sign in with
                                 Facebook</a></li>
-                                <li><a href="#" class="google"><i class="fa fa-google"></i> Sign in With Google</a></li>
+                                <li><a href="#" class="google"><i class="fa fa-google"></i> Sign in with Google</a></li>
 
 
                             </ul>
