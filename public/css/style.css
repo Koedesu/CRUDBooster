@@ -180,17 +180,21 @@ ol {
 	top: 3px;
 }
 
+
 .site-btn {
 	font-size: 13px;
 	color: #ffffff;
 	background: #e53637;
 	font-weight: 700;
 	border: none;
-	border-radius: 2px;
+	border-radius: 10px !important;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	display: inline-block;
-	padding: 12px 30px;
+	padding:15px 30px;
+	width: 50%;
+	height: fit-content;
+
 }
 
 /* Preloder */
@@ -350,7 +354,7 @@ ol {
 }
 
 .header__menu ul li.active a {
-	background: #E43637;
+	background: #e53637;
 	color: #ffffff;
 }
 
@@ -377,7 +381,7 @@ ol {
 	left: 0;
 	top: 82px;
 	width: 150px;
-	background: #1C1E43;
+	background: #ffffff;
 	text-align: left;
 	padding: 5px 0;
 	z-index: 9;
@@ -395,7 +399,7 @@ ol {
 
 .header__menu ul li .dropdown li a {
 	font-size: 14px;
-	color: #ffffff;
+	color: #111111;
 	font-weight: 500;
 	padding: 5px 20px;
 }
@@ -1723,10 +1727,10 @@ ol {
 
 .login__form {
 	position: relative;
-	padding-left: 145px;
+	padding-left: 100px;
 }
 
-/* .login__form:after {
+.login__form:after {
 	position: absolute;
 	right: -14px;
 	top: -40px;
@@ -1734,7 +1738,7 @@ ol {
 	width: 1px;
 	background: rgba(255, 255, 255, 0.2);
 	content: "";
-} */
+}
 
 .login__form h3 {
 	color: #ffffff;
@@ -1765,7 +1769,7 @@ ol {
 	font-size: 15px;
 	color: #b7b7b7;
 	background: #ffffff;
-	border: none;
+	border-radius: 10px;
 	padding-left: 76px;
 }
 
