@@ -1729,6 +1729,10 @@ ol {
 /*---------------------
   Login
 -----------------------*/
+.azp {
+	
+	text-indent:135px;
+}
 
 .login {
 	padding-top: 130px;
