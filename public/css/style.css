@@ -149,6 +149,12 @@ ol {
 	padding-bottom: 100px;
 }
 
+
+.fullname .input__item{
+    width: 50%;
+
+}
+
 .text-white h1,
 .text-white h2,
 .text-white h3,
@@ -1640,6 +1646,10 @@ ol {
 	background: #e53637;
 }
 
+#nameregister {
+
+}
+
 .blog__details__form {
 	padding-top: 50px;
 }
@@ -1770,6 +1780,30 @@ ol {
 	color: #b7b7b7;
 	background: #ffffff;
 	border-radius: 10px;
+	padding-left: 76px;
+}
+
+.login__form form .input__register input {
+	height: 50px;
+	width: 250px;
+    margin-top: 9%;
+    margin-left: -80px;
+	font-size: 15px;
+	color: #b7b7b7;
+	background: #ffffff;
+	border: none;
+	padding-left: 76px;
+}
+
+.login__form form .input__registers input {
+	height: 50px;
+	width: 250px;
+    margin-top: 9%;
+    margin-left: 150px;
+	font-size: 15px;
+	color: #b7b7b7;
+	background: #ffffff;
+	border: none;
 	padding-left: 76px;
 }
 

@@ -1,4 +1,10 @@
 @include('header')
+<<<<<<< HEAD
+<h1 class="md-12">
+
+</h1>
+=======
+>>>>>>> eb729476b0a5aacee26042904412d42b75e7ba8f
 
 
     <!-- Login Section Begin -->
