@@ -9,7 +9,7 @@
         <div class="container">
             <div class="row d-flex justify-content">
                 <div class="col-lg-6">
-                    <div class="login__form">  
+                    <div class="login__form">
                         <h3 class="azp">Login</h3>
                         <form action="#">
                             <div class="input__item">
@@ -27,12 +27,6 @@
                         <!-- <a href="#" class="forget_pass">Forgot Your Password?</a> -->
                     </div>
                 </div>
-            <!--     <div class="col-lg-6">
-                    <div class="login__register">
-                        <h3>Dont’t Have An Account?</h3>
-                        <a href="#" class="primary-btn">Register Now</a>
-                    </div>
-                </div> -->
             </div>
             <div class="login__social">
                 <div class="row d-flex">
@@ -47,10 +41,20 @@
                             </ul>
                         </div>
                     </div>
-    
                 </div>
             </div>
-
+            <div class="login__social">
+                <div class="row d-flex">
+                    <div class="col-lg-6">
+                        <div class="login__social__links">
+                            <span>Don't have an account?</span>
+                            <ul>
+                                <li><a href="register"><u> Register </u></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!-- Login Section End -->
