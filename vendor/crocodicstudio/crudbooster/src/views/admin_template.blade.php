@@ -128,7 +128,7 @@
 
                     @if($button_export && CRUDBooster::getCurrentMethod() == 'getIndex')
                         <a href="javascript:void(0)" id='btn_export_data' data-url-parameter='{{$build_query}}' title='Export Data'
-                           class="btn btn-sm btn-primary btn-export-data">
+                           class="btn btn-sm btn-warning btn-export-data">
                             <i class="fa fa-upload"></i> {{cbLang("button_export")}}
                         </a>
                     @endif

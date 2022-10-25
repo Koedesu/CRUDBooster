@@ -5,12 +5,12 @@
 	use DB;
 	use CRUDBooster;
 
-	class AdminStudentsController extends \crocodicstudio\crudbooster\controllers\CBController {
+	class AdminInscriptions26Controller extends \crocodicstudio\crudbooster\controllers\CBController {
 
 	    public function cbInit() {
 
 			# START CONFIGURATION DO NOT REMOVE THIS LINE
-			$this->title_field = "name";
+			$this->title_field = "id_tournament";
 			$this->limit = "20";
 			$this->orderby = "id,desc";
 			$this->global_privilege = false;
@@ -25,28 +25,28 @@
 			$this->button_filter = true;
 			$this->button_import = false;
 			$this->button_export = true;
-			$this->table = "students";
+			$this->table = "inscriptions";
 			# END CONFIGURATION DO NOT REMOVE THIS LINE
 
 			# START COLUMNS DO NOT REMOVE THIS LINE
 			$this->col = [];
-			$this->col[] = ["label"=>"Name","name"=>"name"];
-			$this->col[] = ["label"=>"Email","name"=>"email"];
-			$this->col[] = ["label"=>"Phone","name"=>"phone"];
+			$this->col[] = ["label"=>"Tournament","name"=>"id_tournament","join"=>"tournaments,id"];
+			$this->col[] = ["label"=>"Team","name"=>"id_team","join"=>"teams,id"];
+			$this->col[] = ["label"=>"Player","name"=>"id_player","join"=>"players,id"];
 			# END COLUMNS DO NOT REMOVE THIS LINE
 
 			# START FORM DO NOT REMOVE THIS LINE
 			$this->form = [];
-			$this->form[] = ['label'=>'Name','name'=>'name','type'=>'text','validation'=>'required|string|min:3|max:70','width'=>'col-sm-10','placeholder'=>'You can only enter the letter only'];
-			$this->form[] = ['label'=>'Email','name'=>'email','type'=>'email','validation'=>'required|min:1|max:255|email|unique:students','width'=>'col-sm-10','placeholder'=>'Please enter a valid email address'];
-			$this->form[] = ['label'=>'Phone','name'=>'phone','type'=>'number','validation'=>'required|numeric','width'=>'col-sm-10','placeholder'=>'You can only enter the number only'];
+			$this->form[] = ['label'=>'Tournament','name'=>'id_tournament','type'=>'select2','validation'=>'required|integer|min:0','width'=>'col-sm-10','datatable'=>'tournament,id'];
+			$this->form[] = ['label'=>'Team','name'=>'id_team','type'=>'select2','validation'=>'required|integer|min:0','width'=>'col-sm-10','datatable'=>'team,id'];
+			$this->form[] = ['label'=>'Player','name'=>'id_player','type'=>'select2','validation'=>'required|integer|min:0','width'=>'col-sm-10','datatable'=>'player,id'];
 			# END FORM DO NOT REMOVE THIS LINE
 
 			# OLD START FORM
 			//$this->form = [];
-			//$this->form[] = ['label'=>'Name','name'=>'name','type'=>'text','validation'=>'required|string|min:3|max:70','width'=>'col-sm-10','placeholder'=>'You can only enter the letter only'];
-			//$this->form[] = ['label'=>'Email','name'=>'email','type'=>'email','validation'=>'required|min:1|max:255|email|unique:students','width'=>'col-sm-10','placeholder'=>'Please enter a valid email address'];
-			//$this->form[] = ['label'=>'Phone','name'=>'phone','type'=>'number','validation'=>'required|numeric','width'=>'col-sm-10','placeholder'=>'You can only enter the number only'];
+			//$this->form[] = ['label'=>'Tournament','name'=>'id_tournament','type'=>'select2','validation'=>'required|integer|min:0','width'=>'col-sm-10','datatable'=>'tournament,id'];
+			//$this->form[] = ['label'=>'Team','name'=>'id_team','type'=>'select2','validation'=>'required|integer|min:0','width'=>'col-sm-10','datatable'=>'team,id'];
+			//$this->form[] = ['label'=>'Player','name'=>'id_player','type'=>'select2','validation'=>'required|integer|min:0','width'=>'col-sm-10','datatable'=>'player,id'];
 			# OLD END FORM
 
 			/* 
